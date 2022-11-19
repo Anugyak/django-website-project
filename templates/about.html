@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}About us{% endblock %}
+{% load static %}
+
+{% block content %}
+    <h2 class="display-3" style = "font-family: Lucida Handwriting; font-size:50px; padding:20px;">Ethnic Wear</h2>
+    <h3 style = "font-family: Lucida Handwriting; padding:20px;">Preserve ethnicity and culture</h3>
+    <p style = "padding:20px;">Ethnic Wear is a renowned wholesaler and Manufacturer for traditional clothes in Kathmandu, Nepal. The handmade clothes supplier company offers wide range of ethnic clothes for both male and female along with its matching sets and handmade garments of different kinds. We manufacture and sell all kind of handmade traditional clothes made in Nepal.</p>
+    <br>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="{% static 'user/images/eth6.jpg' %}" width="107" height="200" alt="First">
+  
+                    <div class="card-body">
+                        <h5 class="card-title" style = "font-family: Lucida Handwriting;">Diversity</h5>
+                        <p class="card-text">
+                            Nepal is a multi-ethnic, multilingual, multi-religious and multicultural country. Ethnic Wear has always been working on preserving such ethnicity of the country.
+                        </p>
+  
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="{% static 'user/images/eth2.jpg' %}" width="107" height="200" alt="Second">
+  
+                    <div class="card-body">
+                        <h5 class="card-title" style = "font-family: Lucida Handwriting;">Nationality</h5>
+                        <p class="card-text">
+                            Nepal is blessed with a unique diversity of natural beauty and cultural varieties. Ethnic Wear has put alot of effort to demostrate such unique diversity through the cultural dresses.
+                        </p>
+                          
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br><br>
+{% endblock %}
