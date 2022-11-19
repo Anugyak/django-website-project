@@ -25,7 +25,7 @@ SECRET_KEY = 'kwnt6e-^w!d^_^m4e6_@=gxtt_8c!6a*j&h8(!r$4nfpk4swu6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'ewear.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', '']
 
 
 # Application definition
@@ -44,7 +44,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
